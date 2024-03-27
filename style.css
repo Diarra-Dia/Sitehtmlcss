@@ -1,0 +1,138 @@
+/*General role*/
+
+html{
+min-height: 100%;
+box-sizing: border-box;
+}
+body {
+    background-color: #63ff8594;
+    color: #000000;
+    margin: 0 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none ;
+}
+.nav{
+padding-bottom: 80px;
+background: #fff;
+}
+.nav{
+float: left;
+font-weight: bold;
+font-size: 30px;
+letter-spacing: 0.7px;
+margin-top: 15px;
+margin-left: 30px;
+color: #170069;
+border-bottom: 2px solid #000;
+}
+.nav h1 span{
+    color: #4caf50;
+}
+    
+.nav ul{
+background: #fff;
+margin: 10px;
+padding: 10px;
+float: right;
+overflow: hidden;
+margin-right: 100%;
+}
+
+.nav ul li{
+list-style: none;
+display: inline;
+margin: 0 10px;
+overflow: hidden;
+}
+
+.nav ul li a {
+color: #4caf50;
+font-size: 25px;
+font-weight: bold;
+}
+
+/*text-header*/
+
+.text-header{
+text-align: center;
+background: #999;
+padding: 10px;
+color: #fff;
+margin-bottom: 20px;
+}
+
+.text-header{
+    font-size: 50px;
+}
+
+/*section*/
+
+.section{
+background: #fff;
+margin-top: -20px;
+padding: 20px;
+}
+
+.section .section-un .section-image.images{
+width: 500px;
+height: auto;
+margin: 10px;
+}
+
+.section .section-deux{
+width: 50px;
+height: auto;margin: 10px;
+}
+
+.section .section-deux.contact .info{
+margin-left: 50px;
+font-size: 18px;
+color: #000;
+line-height: 1.7;
+}
+/*footer*/
+
+.footer {
+   color: #00602a;
+   font-size: 20px;
+}
+
+/* a propos */
+
+.about a{
+color: #ffffff;
+font-size: 20px;
+}
+
+/*contact*/
+
+#agence {
+    font-size: 16px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#agence th {
+    padding-top: 11px;
+    padding: 11px;
+    background: #4caf50;
+    color: white;
+}
+
+#agence td {
+    border: 1px solid #fff;
+    padding: 15px;
+    text-align: left;
+}
+/*mon framwork*/
+
+.title,
+.desc{
+    text-align: center;
+}
+
